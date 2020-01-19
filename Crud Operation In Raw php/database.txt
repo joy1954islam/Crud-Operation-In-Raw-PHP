@@ -1,0 +1,11 @@
+CREATE TABLE `railway`. `train`( 
+`id` int(11) not null auto_increment,
+`Train_name` VARCHAR(255) NOT NULL , 
+`t_from` VARCHAR(30) NOT NULL , 
+`t_to` VARCHAR(30) NOT NULL ,
+ `t_date` DATE NOT NULL ,
+ `t_time` time NOT NULL ,
+ `s_class` VARCHAR(10) NOT NULL ,
+ `s_number` VARCHAR(10) NOT NULL ,
+  `s_price` VARCHAR(10) NOT NULL ,
+ PRIMARY KEY (`id`)) ENGINE = InnoDB;
